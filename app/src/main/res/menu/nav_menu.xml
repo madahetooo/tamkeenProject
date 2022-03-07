@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/miInbox"
+        android:icon="@drawable/ic_inbox"
+        android:title="@string/inbox" />
+    <item
+        android:id="@+id/miSent"
+        android:icon="@drawable/ic_sent"
+        android:title="@string/sent" />
+    <item
+        android:id="@+id/miStarred"
+        android:icon="@drawable/ic_star"
+        android:title="@string/starred" />
+    <item
+        android:id="@+id/miArchive"
+        android:icon="@drawable/ic_archive"
+        android:title="@string/archive" />
+</menu>

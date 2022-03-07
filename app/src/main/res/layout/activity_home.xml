@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.HomeActivity">
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/profile" />
+
+    <Button
+        android:id="@+id/btnCounter"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/counter_app" />
+
+    <Button
+        android:id="@+id/btnImageViewExample"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/imageview_app" />
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/calculator_app" />
+    <Button
+        android:id="@+id/btnRestaurantApp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/restaurant" />
+    <Button
+        android:id="@+id/btnBaseActivity"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/base_activity" />
+    <Button
+        android:id="@+id/btnNavigationDrawer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/navigationdrawer" />
+    <Button
+        android:id="@+id/btnTodoListApplication"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/todolist_app" />
+    <Button
+        android:id="@+id/btnBroadCastReceiver"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/broadcastreceiver" />
+    <Button
+        android:id="@+id/btnShowNotificationApp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/norification_app" />
+</LinearLayout>
